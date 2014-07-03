@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Clinton Wong - Home</title>
+		<title>Clinton Wong - War Games</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -23,7 +23,7 @@
 		</noscript>
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
-	<body class="homepage">
+	<body class="right-sidebar">
 
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -64,20 +64,7 @@
 												</li>
 											</ul>
 										</nav>
-								</section>
 
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-
-							<!-- Banner -->
-								<section id="banner">
-										<span class="image image-full"><img src="images/selfbanner.jpg" alt="" /></span>
-										<header>
-											<h2>Hi, my name is Clinton!</h2>
-											<span class="byline">I'm a recent Software Engineering graduate.</span>
-										</header>
 								</section>
 
 						</div>
@@ -99,18 +86,43 @@
 												
 												<!-- Content -->
 													<article class="box is-post">
-														<span class="image image-full"><img src="images/selfbanner2.jpg" alt="" /></span>
+														<div class="image image-full"><img src="images/wargame.jpg" alt="" /></div>
 														<header>
-															<h2>Welcome!</h2>
+															<h2>War Games Project</h2>
+															<span class="byline">January 2014 - April 2014</span>
 														</header>
 														<p>
-															I'm a fresh Software Engineering graduate with a passion for creating software solutions.
-															<br/>
-															My expertise lies in building web applications, having developed with the most prevalent web application frameworks such as Asp.NET MVC, Ruby on Rails, and Django.
+															For our final project of our engineering degree, aptly called the Capstone Design Project, I was paired up with fellow classmates Tyler Schneider and AJ Sharpe.  We decided to try to build, to the best of our ability, a clone of the well known turn-based strategy game series, Advance Wars.
+															During the final semester (along with attending the rest of our classes), we planned, designed and built the game.
 														</p>
-														<p>
-															This website is a place for me to put everything I want to show the world!  Please feel free to explore!
-														</p>
+														<section>
+															<header>
+																<h3>The Design</h3>
+															</header>
+															<p>
+																We decided our game would have the following:
+																<br/>
+																<br/>
+																- A Server-Client architecture using TCP to facilitate multiplayer games<br/>
+																- A front-end client with user interface written in Java using the Abstract Window Toolkit<br/>
+																- A back-end server written in C that will manage the client connections and keep track of games<br/>
+																- Custom designed packets to reduce the network load and compatible between languages<br/>
+															</p>
+														</section>
+														<section>
+															<header>
+																<h3>The Result</h3>
+															</header>
+															<p>
+																While we couldn't completely replicate Advance Wars, we were happy with what we achieved.
+																<br/>
+																We had a working server/client that allows 2 players to battle online or locally sharing one computer.
+																We had players create units and engage each other through different terrain, and have the terrain affect unit mobility and defense, just like Advance Wars.  In addition, we were able to recreate most of the user interface elements that were present in Advance Wars, such as the information panel, and the pathfinding highlighter.  
+															</p>
+															<p>
+																You can explore the project at our GitHub respository <a href="https://github.com/crumbtray/wargames">here.</a>
+															</p>
+														</section>
 													</article>
 
 											</div>
